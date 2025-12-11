@@ -7,7 +7,7 @@
 This project simulates a Small Office / Home Office network using Cisco Packet Tracer. It features a centralized DHCP server managing multiple subnets, including a wired LAN and a wireless guest network.
 
 ## Topology
-
+<img width="1247" height="678" alt="image" src="https://github.com/user-attachments/assets/568bb7d1-bf4a-40af-b801-e7529690c15d" />
 ## Features
 
 DHCP Relay: Configured IP helper-address on the router to forward DHCP requests to a central server.
@@ -30,9 +30,6 @@ Test HTTP server : 192.168.30.2/24 (Gateway: .1)
 4. Toggle Simulation Mode to visualize packet transportation.
 
 ## Screenshots
-<h3>Network Overview</h3>
-<img width="1247" height="678" alt="image" src="https://github.com/user-attachments/assets/568bb7d1-bf4a-40af-b801-e7529690c15d" />
-
 <h3>DHCP setup</h3>
 <img width="867" height="861" alt="image" src="https://github.com/user-attachments/assets/14c3fb03-6c17-41fc-9cce-ea249d38c0d4" />
 
