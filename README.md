@@ -12,7 +12,9 @@ This project simulates a Small Office / Home Office network using Cisco Packet T
 ## Features
 
 DHCP Relay: Configured IP helper-address on the router to forward DHCP requests to a central server.
+
 DNS Server: Domain name system for HTTP test server
+
 HTTP Server: Simulate the company's intranet
 
 Network Segmentation:
