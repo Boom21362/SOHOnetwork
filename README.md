@@ -3,7 +3,8 @@
 
 # Cisco Packet Tracer - SOHO Network Project
 
-## Overview This project simulates a Small Office / Home Office network using Cisco Packet Tracer. It features a centralized DHCP server managing multiple subnets, including a wired LAN and a wireless guest network.
+## Overview 
+This project simulates a Small Office / Home Office network using Cisco Packet Tracer. It features a centralized DHCP server managing multiple subnets, including a wired LAN and a wireless guest network.
 
 ## Topology
 
