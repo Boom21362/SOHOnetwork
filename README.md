@@ -1,5 +1,5 @@
 # SOHOnetwork
-3-departments SOHO network with DNS, DHCP, and HTTP servers 
+2+1-departments SOHO network with DNS, DHCP, and HTTP servers 
 
 # Cisco Packet Tracer - SOHO Network Project
 
