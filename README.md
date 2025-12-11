@@ -8,6 +8,7 @@ This project simulates a Small Office / Home Office network using Cisco Packet T
 
 ## Topology
 <img width="1247" height="678" alt="image" src="https://github.com/user-attachments/assets/568bb7d1-bf4a-40af-b801-e7529690c15d" />
+
 ## Features
 
 DHCP Relay: Configured IP helper-address on the router to forward DHCP requests to a central server.
