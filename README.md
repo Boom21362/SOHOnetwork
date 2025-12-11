@@ -44,7 +44,8 @@ The network is segmented into three distinct subnets handled by a central Gatewa
 <img width="501" height="540" alt="image" src="https://github.com/user-attachments/assets/aace6d5e-da9a-4c49-9135-197a9d124afc" />
 
 <h3>HTTP server access</h3>
-<img width="1351" height="658" alt="image" src="https://github.com/user-attachments/assets/a206e88f-d41b-4f82-9859-a2ad89d06b25" />
+<img width="863" height="684" alt="image" src="https://github.com/user-attachments/assets/2832f2b7-d691-47ed-890c-945a88a68247" />
+
 
 
 
