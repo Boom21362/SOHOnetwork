@@ -11,26 +11,30 @@ This project simulates a Small Office / Home Office network using Cisco Packet T
 
 ## Features
 
-DHCP Relay: Configured IP helper-address on the router to forward DHCP requests to a central server.
-
-DNS Server: Domain name system for HTTP test server
-
-HTTP Server: Simulate the company's intranet
+* **DHCP Relay:** Configured `ip helper-address` on the router interfaces to forward broadcast DHCP requests across subnets to a centralized server.
+* **DNS Server:** Implemented Domain Name System resolution to allow users to access the Intranet via domain name rather than IP.
+* **HTTP Server:** Hosted a simulation of a company Intranet site for connectivity testing.
+* **VLAN/Subnet Segmentation:** Separated traffic into logical departments for better management and security.
 
 Network Segmentation:
 
-Sales Department network: 192.168.10.0/24 (Gateway: .1)
+The network is segmented into three distinct subnets handled by a central Gateway Router:
 
-HR Department network: 192.168.20.0/24 (Gateway: .1)
+| Department | Network ID | Subnet Mask | Gateway |
+| :--- | :--- | :--- | :--- |
+| **Sales Dept** | `192.168.10.0` | `/24` | `.1` |
+| **HR Dept** | `192.168.20.0` | `/24` | `.1` |
+| **Server Farm** | `192.168.30.0` | `/24` | `.1` |
 
-Test HTTP server : 192.168.30.2/24 (Gateway: .1)
-
+* **Test HTTP Server IP:** `192.168.30.2`
 ## How to Run
 
-1. Download SOHO_Network1.pkt.
-2. Open in Cisco Packet Tracer (v8.2 or newer).
-3. Toggle PCs to "DHCP" to verify automatic IP assignment.
-4. Toggle Simulation Mode to visualize packet transportation.
+1.  **Download:** Get the `SOHO_Network1.pkt` file from this repository.
+2.  **Launch:** Open the file in **Cisco Packet Tracer** (v8.2 or newer).
+3.  **Verify DHCP:** Click any PC in Sales or HR, go to **Desktop > IP Configuration**, and toggle "DHCP" to confirm it receives an IP address automatically.
+4.  **Test Connectivity:**
+    * Open a PC's Web Browser and navigate to the server IP (or domain if configured).
+    * Toggle **Simulation Mode** (Shift+S) to visualize the packet flow across the router.
 
 ## Screenshots
 <h3>DHCP setup</h3>
