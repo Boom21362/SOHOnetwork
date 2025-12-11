@@ -1,4 +1,4 @@
-<img width="501" height="540" alt="image" src="https://github.com/user-attachments/assets/aace6d5e-da9a-4c49-9135-197a9d124afc" /># SOHOnetwork
+# SOHOnetwork
 3-departments SOHO network with DNS, DHCP, and HTTP servers 
 
 # Cisco Packet Tracer - SOHO Network Project
@@ -36,7 +36,7 @@ Test HTTP server : 192.168.30.2/24 (Gateway: .1)
 <img width="867" height="861" alt="image" src="https://github.com/user-attachments/assets/14c3fb03-6c17-41fc-9cce-ea249d38c0d4" />
 
 <h3>Cross sub-network ping (ICMP) [Sales -> HR]</h3>
-<img width="501" height="540" alt="image" src="https://github.com/user-attachments/assets/504e3b3d-92a1-4551-b215-c2820d23414f" />
+<img width="501" height="540" alt="image" src="https://github.com/user-attachments/assets/aace6d5e-da9a-4c49-9135-197a9d124afc" />
 
 <h3>HTTP server access</h3>
 <img width="1351" height="658" alt="image" src="https://github.com/user-attachments/assets/a206e88f-d41b-4f82-9859-a2ad89d06b25" />
