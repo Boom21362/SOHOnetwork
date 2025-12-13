@@ -29,7 +29,7 @@ The network is segmented into three distinct subnets handled by a central Gatewa
 * **Test HTTP Server IP:** `192.168.30.2`
 ## How to Run
 
-1.  **Download:** Get the `SOHO_Network1.pkt` file from this repository.
+1.  **Download:** Get the `SOHOnetwork1.pkt` file from this repository.
 2.  **Launch:** Open the file in **Cisco Packet Tracer** (v8.2 or newer).
 3.  **Verify DHCP:** Click any PC in Sales or HR, go to **Desktop > IP Configuration**, and toggle "DHCP" to confirm it receives an IP address automatically.
 4.  **Test Connectivity:**
